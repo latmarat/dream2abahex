@@ -5,13 +5,13 @@ function dream2abahex(voxFileName, inpFileName)
     % in Dream.3D by reading Los Alamos FFT file
     % 
     % % Syntax
-    % dream2abahex(voxFileName, abaFileName)
+    % dream2abahex(voxFileName, inpFileName)
     %
     % % Input
     % voxFileName - full path to Los Alamos FFT file written by Dream.3D
     % inpFileName - desired path to Abaqus input file 
     % % Example:
-    % dream2abahex('dp_64x64x64.vox', 'aba_64x64x64.inp')
+    % dream2abahex('dp_64x64x64.vox', 'dp_64x64x64-aba.inp')
     % 
     % % Result
     % ABAQUS input file containing C3D8 mesh with 
@@ -19,10 +19,10 @@ function dream2abahex(voxFileName, inpFileName)
     % - sections with individual phases
     % - element sets with grains 
     % - node sets of faces for easier assignment of BCs
-    % and orientations file containing
+    % and orientations (tex) file containing
     % Euler angle sets for each element in the mesh
     %
-    % Read more at http://latmarat.github.io/blog/dream3d2abahex
+    % Read more at http://latmarat.github.io/blog/scripts/dream2abahex/
    
     % --------------------------
     % written by
