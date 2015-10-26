@@ -22,7 +22,7 @@ function dream2abahex(voxFileName, inpFileName)
     % and orientations (tex) file containing
     % Euler angle sets for each element in the mesh
     %
-    % Read more at http://latmarat.github.io/blog/scripts/dream2abahex/
+    % Read more at http://latmarat.net/blog/scripts/dream2abahex/
    
     % --------------------------
     % written by
